@@ -133,6 +133,28 @@ D \cdot sinc(nD) \cdot e^{-j2\pi nD/2} \cdot \delta(f-nf_s)
 
 Donde resulta interesante resaltar que nuevamente se obtiene una replicación del espectro original en cada múltiplo de $f_s$ junto con una modulación de una sinc; sin embargo, aquí la modulación del espectro depende de que réplica proviene la componente, no de la frecuencia resultante.
 
+\subsubsection{Muestreo con S\&H}
+En última instancia se tiene al muestreo con S\&H (i.e. sin re-muestrear con el AS). De este modo, a la salida se este subsistema se observa el seguimiento de la señal mientras se esta sampleando (idealmente), alternado con el periodo de hold. Este tipo de muestreo puede caracterizarse mediante:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width = \textwidth]{Imagenes/5_Muestreo/Muestreo SH.pdf}
+  \caption{Modelado con S\&H.}
+  \label{fig: muestreo con SH}
+\end{figure}
+
+\noindent donde se ha de realizar un defasaje temporal de 180° sobre la señal cuadrada empleada en la multiplicación del muestreo natural. De este modo, siendo que este defasaje se traduce en negar la transformada de Fourier, el espectro de este muestreo se caracteriza por:
+
+\begin{align*}
+    Y(f) &= Y_{inst} - Y_{nat} =  \left[X(f) * \sum_{n \in \mathbb{Z}} \delta(f-nf_s)\right] 
+\cdot D_{hold} \cdot sinc(D_{hold} f/f_s) \cdot e^{-j2\pi D_{hold} f/2f_s} \\
+&- X(f) * \sum_{n \in \mathbb{Z}} 
+D_{sample} \cdot sinc(nD_{sample}) \cdot e^{-j2\pi nD_{sample}/2} \cdot \delta(f-nf_s)
+\end{align*}
+
+\noindent Donde se denota que se  dispone de la misma replicación que los casos anteriores, sin embargo la dependencia para con ambos muestreos evita un generalización mas precisa.
+
+
 \subsubsection{Filtros}
 En el análisis previo se omitieron los filtros con tal de simplificar el desarrollo. Sin embargo, para es relevante estudiar el efecto que tienen estos para con la relación entrada-salida.
 

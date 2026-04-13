@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.21)  12 APR 2026 02:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.21)  13 APR 2026 04:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1252,7 +1252,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
  (C:\Users\herra\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Imagenes/titlepage.png, id=74, 170.13562pt x 220.57407pt>
+<Imagenes/titlepage.png, id=103, 170.13562pt x 220.57407pt>
 File: Imagenes/titlepage.png Graphic file (type png)
 <use Imagenes/titlepage.png>
 Package pdftex.def Info: Imagenes/titlepage.png  used on input line 111.
@@ -1278,7 +1278,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 1.
 
 )
-<Imagenes/logo.png, id=113, 564.1878pt x 277.035pt>
+<Imagenes/logo.png, id=149, 564.1878pt x 277.035pt>
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
 Package pdftex.def Info: Imagenes/logo.png  used on input line 125.
@@ -1288,7 +1288,7 @@ Package pdftex.def Info: Imagenes/logo.png  used on input line 125.
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 1.
 
-<Imagenes/2_Oscilador/oscilador.pdf, id=123, 1381.16pt x 1076.02pt>
+<Imagenes/2_Oscilador/oscilador.pdf, id=159, 1381.16pt x 1076.02pt>
 File: Imagenes/2_Oscilador/oscilador.pdf Graphic file (type pdf)
 <use Imagenes/2_Oscilador/oscilador.pdf>
 Package pdftex.def Info: Imagenes/2_Oscilador/oscilador.pdf  used on input line 7.
@@ -1302,17 +1302,17 @@ Package pdftex.def Info: Imagenes/logo.png  used on input line 14.
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 15.
 
-<Imagenes/2_Oscilador/oscilador_de_relajación.pdf, id=138, 1076.02pt x 819.06pt>
+<Imagenes/2_Oscilador/oscilador_de_relajación.pdf, id=174, 1076.02pt x 819.06pt>
 File: Imagenes/2_Oscilador/oscilador_de_relajación.pdf Graphic file (type pdf)
 <use Imagenes/2_Oscilador/oscilador_de_relajación.pdf>
 Package pdftex.def Info: Imagenes/2_Oscilador/oscilador_de_relajación.pdf  used on input line 22.
 (pdftex.def)             Requested size: 342.17133pt x 260.45483pt.
-<Imagenes/2_Oscilador/osc_rel_neg.pdf, id=139, 706.64pt x 465.74pt>
+<Imagenes/2_Oscilador/osc_rel_neg.pdf, id=175, 706.64pt x 465.74pt>
 File: Imagenes/2_Oscilador/osc_rel_neg.pdf Graphic file (type pdf)
 <use Imagenes/2_Oscilador/osc_rel_neg.pdf>
 Package pdftex.def Info: Imagenes/2_Oscilador/osc_rel_neg.pdf  used on input line 35.
 (pdftex.def)             Requested size: 234.6307pt x 154.63985pt.
-<Imagenes/2_Oscilador/osc_rel_pos.pdf, id=140, 610.28pt x 417.56pt>
+<Imagenes/2_Oscilador/osc_rel_pos.pdf, id=176, 610.28pt x 417.56pt>
 File: Imagenes/2_Oscilador/osc_rel_pos.pdf Graphic file (type pdf)
 <use Imagenes/2_Oscilador/osc_rel_pos.pdf>
 Package pdftex.def Info: Imagenes/2_Oscilador/osc_rel_pos.pdf  used on input line 42.
@@ -1355,12 +1355,12 @@ LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 12.
 
-<Imagenes/5_Muestreo/esquema_inicial.pdf, id=192, 511.9125pt x 170.88844pt>
+<Imagenes/5_Muestreo/esquema_inicial.pdf, id=228, 511.9125pt x 170.88844pt>
 File: Imagenes/5_Muestreo/esquema_inicial.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/esquema_inicial.pdf>
 Package pdftex.def Info: Imagenes/5_Muestreo/esquema_inicial.pdf  used on input line 18.
 (pdftex.def)             Requested size: 488.81833pt x 163.18011pt.
-<Imagenes/5_Muestreo/Esquema_general.pdf, id=193, 511.9125pt x 170.88844pt>
+<Imagenes/5_Muestreo/Esquema_general.pdf, id=229, 511.9125pt x 170.88844pt>
 File: Imagenes/5_Muestreo/Esquema_general.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/Esquema_general.pdf>
 Package pdftex.def Info: Imagenes/5_Muestreo/Esquema_general.pdf  used on input line 27.
@@ -1369,7 +1369,7 @@ Package pdftex.def Info: Imagenes/5_Muestreo/Esquema_general.pdf  used on input 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 34.
 
-<Imagenes/5_Muestreo/Muestreo_inst.pdf, id=194, 511.9125pt x 170.88844pt>
+<Imagenes/5_Muestreo/Muestreo_inst.pdf, id=230, 511.9125pt x 170.88844pt>
 File: Imagenes/5_Muestreo/Muestreo_inst.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/Muestreo_inst.pdf>
 Package pdftex.def Info: Imagenes/5_Muestreo/Muestreo_inst.pdf  used on input line 40.
@@ -1388,7 +1388,7 @@ Package pdftex.def Info: Imagenes/logo.png  used on input line 86.
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 90.
 
-<Imagenes/5_Muestreo/Muestreo_nat.pdf, id=366, 511.9125pt x 170.88844pt>
+<Imagenes/5_Muestreo/Muestreo_nat.pdf, id=402, 511.9125pt x 170.88844pt>
 File: Imagenes/5_Muestreo/Muestreo_nat.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/Muestreo_nat.pdf>
 Package pdftex.def Info: Imagenes/5_Muestreo/Muestreo_nat.pdf  used on input line 95.
@@ -1405,206 +1405,384 @@ Package pdftex.def Info: Imagenes/logo.png  used on input line 132.
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 136.
 
-<Imagenes/5_Muestreo/filtro_mag.png, id=421, 414.8298pt x 331.7193pt>
+<Imagenes/5_Muestreo/Muestreo SH.pdf, id=455, 511.9125pt x 170.88844pt>
+File: Imagenes/5_Muestreo/Muestreo SH.pdf Graphic file (type pdf)
+<use Imagenes/5_Muestreo/Muestreo SH.pdf>
+Package pdftex.def Info: Imagenes/5_Muestreo/Muestreo SH.pdf  used on input line 141.
+(pdftex.def)             Requested size: 488.81833pt x 163.18011pt.
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/scsl' instead on input line 158.
+
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 162.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+[12 <./Imagenes/5_Muestreo/Muestreo SH.pdf>]
+<Imagenes/5_Muestreo/filtro_mag.png, id=508, 414.8298pt x 331.7193pt>
 File: Imagenes/5_Muestreo/filtro_mag.png Graphic file (type png)
 <use Imagenes/5_Muestreo/filtro_mag.png>
-Package pdftex.def Info: Imagenes/5_Muestreo/filtro_mag.png  used on input line 151.
+Package pdftex.def Info: Imagenes/5_Muestreo/filtro_mag.png  used on input line 173.
 (pdftex.def)             Requested size: 234.6307pt x 187.61914pt.
-<Imagenes/5_Muestreo/filtro_pha.png, id=422, 421.3341pt x 331.7193pt>
+<Imagenes/5_Muestreo/filtro_pha.png, id=509, 421.3341pt x 331.7193pt>
 File: Imagenes/5_Muestreo/filtro_pha.png Graphic file (type png)
 <use Imagenes/5_Muestreo/filtro_pha.png>
-Package pdftex.def Info: Imagenes/5_Muestreo/filtro_pha.png  used on input line 158.
+Package pdftex.def Info: Imagenes/5_Muestreo/filtro_pha.png  used on input line 180.
 (pdftex.def)             Requested size: 234.6307pt x 184.72389pt.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/scsl' instead on input line 196.
+
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
-Package pdftex.def Info: Imagenes/logo.png  used on input line 169.
+Package pdftex.def Info: Imagenes/logo.png  used on input line 199.
 (pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
-[12 <./Imagenes/5_Muestreo/filtro_mag.png> <./Imagenes/5_Muestreo/filtro_pha.png>]
+[13 <./Imagenes/5_Muestreo/filtro_mag.png> <./Imagenes/5_Muestreo/filtro_pha.png>]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/scsl' instead on input line 174.
+(Font)              using `T1/cmr/m/scsl' instead on input line 206.
 
-
-LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/scsl' instead on input line 184.
-
-<Imagenes/5_Muestreo/a_inst_fs_32k_fin_15k_D_50.pdf, id=432, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_inst_fs_32k_fin_15k_D_50.pdf, id=519, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_inst_fs_32k_fin_15k_D_50.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_inst_fs_32k_fin_15k_D_50.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_inst_fs_32k_fin_15k_D_50.pdf  used on input line 198.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_inst_fs_32k_fin_15k_D_50.pdf  used on input line 220.
 (pdftex.def)             Requested size: 342.17133pt x 186.10005pt.
-File: Imagenes/logo.png Graphic file (type png)
-<use Imagenes/logo.png>
-Package pdftex.def Info: Imagenes/logo.png  used on input line 202.
-(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
-[13]
-<Imagenes/5_Muestreo/a_nat_fs_32k_fin_15k_D_50.pdf, id=438, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_nat_fs_32k_fin_15k_D_50.pdf, id=520, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_nat_fs_32k_fin_15k_D_50.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_nat_fs_32k_fin_15k_D_50.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_nat_fs_32k_fin_15k_D_50.pdf  used on input line 207.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_nat_fs_32k_fin_15k_D_50.pdf  used on input line 229.
 (pdftex.def)             Requested size: 342.17133pt x 186.10005pt.
-
-Underfull \vbox (badness 1527) has occurred while \output is active []
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 232.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+[14 <./Imagenes/5_Muestreo/a_inst_fs_32k_fin_15k_D_50.pdf>]
+Underfull \vbox (badness 1194) has occurred while \output is active []
 
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
-Package pdftex.def Info: Imagenes/logo.png  used on input line 224.
+Package pdftex.def Info: Imagenes/logo.png  used on input line 250.
 (pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
- [14 <./Imagenes/5_Muestreo/a_inst_fs_32k_fin_15k_D_50.pdf> <./Imagenes/5_Muestreo/a_nat_fs_32k_fin_15k_D_50.pdf>]
-<Imagenes/5_Muestreo/a_inst_fs_43_45_k_fin_15k_D_50.pdf, id=514, 922.16518pt x 501.55379pt>
+ [15 <./Imagenes/5_Muestreo/a_nat_fs_32k_fin_15k_D_50.pdf>]
+<Imagenes/5_Muestreo/a_inst_fs_43_45_k_fin_15k_D_50.pdf, id=600, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_inst_fs_43_45_k_fin_15k_D_50.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_inst_fs_43_45_k_fin_15k_D_50.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_inst_fs_43_45_k_fin_15k_D_50.pdf  used on input line 233.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_inst_fs_43_45_k_fin_15k_D_50.pdf  used on input line 255.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50.pdf, id=515, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50.pdf, id=601, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50.pdf  used on input line 240.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50.pdf  used on input line 262.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/a_nat_fs_43_45_k_fin_15k_D_50.pdf, id=516, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_nat_fs_43_45_k_fin_15k_D_50.pdf, id=602, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_nat_fs_43_45_k_fin_15k_D_50.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_nat_fs_43_45_k_fin_15k_D_50.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_nat_fs_43_45_k_fin_15k_D_50.pdf  used on input line 253.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_nat_fs_43_45_k_fin_15k_D_50.pdf  used on input line 275.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50.pdf, id=517, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50.pdf, id=603, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50.pdf  used on input line 260.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50.pdf  used on input line 282.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-File: Imagenes/logo.png Graphic file (type png)
-<use Imagenes/logo.png>
-Package pdftex.def Info: Imagenes/logo.png  used on input line 270.
-(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
- [15 <./Imagenes/5_Muestreo/a_inst_fs_43_45_k_fin_15k_D_50.pdf> <./Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50.pdf> <./Imagenes/5_Muestreo/a_nat_fs_43_45_k_fin_15k_D_50.pdf> <./Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50.pdf>]
-<Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50_FFT.pdf, id=648, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50_FFT.pdf, id=604, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50_FFT.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50_FFT.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50_FFT.pdf  used on input line 277.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50_FFT.pdf  used on input line 299.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50_FFT.pdf, id=649, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50_FFT.pdf, id=605, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50_FFT.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50_FFT.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50_FFT.pdf  used on input line 284.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50_FFT.pdf  used on input line 306.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/cuadrada_por_filtro.pdf, id=650, 922.16518pt x 501.55379pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 314.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+ [16 <./Imagenes/5_Muestreo/a_inst_fs_43_45_k_fin_15k_D_50.pdf> <./Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50.pdf> <./Imagenes/5_Muestreo/a_nat_fs_43_45_k_fin_15k_D_50.pdf> <./Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50.pdf>]
+<Imagenes/5_Muestreo/cuadrada_por_filtro.pdf, id=736, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/cuadrada_por_filtro.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/cuadrada_por_filtro.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/cuadrada_por_filtro.pdf  used on input line 299.
+Package pdftex.def Info: Imagenes/5_Muestreo/cuadrada_por_filtro.pdf  used on input line 321.
 (pdftex.def)             Requested size: 342.17133pt x 186.10005pt.
-<Imagenes/5_Muestreo/a_cuadrada_nat.pdf, id=651, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_cuadrada_nat.pdf, id=737, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_cuadrada_nat.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_cuadrada_nat.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_cuadrada_nat.pdf  used on input line 314.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_cuadrada_nat.pdf  used on input line 336.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/a_cuadrada_inst.pdf, id=652, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/a_cuadrada_inst.pdf, id=738, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/a_cuadrada_inst.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/a_cuadrada_inst.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/a_cuadrada_inst.pdf  used on input line 321.
+Package pdftex.def Info: Imagenes/5_Muestreo/a_cuadrada_inst.pdf  used on input line 343.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
 
-Underfull \vbox (badness 2368) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
-Package pdftex.def Info: Imagenes/logo.png  used on input line 328.
+Package pdftex.def Info: Imagenes/logo.png  used on input line 351.
 (pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
- [16 <./Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50_FFT.pdf> <./Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50_FFT.pdf> <./Imagenes/5_Muestreo/cuadrada_por_filtro.pdf>]
+ [17 <./Imagenes/5_Muestreo/a_nat_fs_47_49_k_fin_15k_D_50_FFT.pdf> <./Imagenes/5_Muestreo/a_inst_fs_47_49_k_fin_15k_D_50_FFT.pdf> <./Imagenes/5_Muestreo/cuadrada_por_filtro.pdf>]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/scsl' instead on input line 334.
+(Font)              using `T1/cmr/m/scsl' instead on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 334.
+(hyperref)                removing `math shift' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 334.
+(hyperref)                removing `subscript' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 334.
+(hyperref)                removing `subscript' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 334.
+(hyperref)                removing `subscript' on input line 356.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 334.
+(hyperref)                removing `math shift' on input line 356.
 
-<Imagenes/5_Muestreo/b_nat_temp.pdf, id=760, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/b_nat_temp.pdf, id=846, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/b_nat_temp.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/b_nat_temp.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/b_nat_temp.pdf  used on input line 345.
+Package pdftex.def Info: Imagenes/5_Muestreo/b_nat_temp.pdf  used on input line 367.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/b_inst_temp.pdf, id=761, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/b_inst_temp.pdf, id=847, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/b_inst_temp.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/b_inst_temp.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/b_inst_temp.pdf  used on input line 355.
+Package pdftex.def Info: Imagenes/5_Muestreo/b_inst_temp.pdf  used on input line 377.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/b_SH_temp.pdf, id=762, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/b_SH_temp.pdf, id=848, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/b_SH_temp.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/b_SH_temp.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/b_SH_temp.pdf  used on input line 362.
+Package pdftex.def Info: Imagenes/5_Muestreo/b_SH_temp.pdf  used on input line 384.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/b_nat_FFT.pdf, id=763, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/b_nat_FFT.pdf, id=849, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/b_nat_FFT.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/b_nat_FFT.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/b_nat_FFT.pdf  used on input line 380.
+Package pdftex.def Info: Imagenes/5_Muestreo/b_nat_FFT.pdf  used on input line 402.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/b_inst_FFT.pdf, id=764, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/b_inst_FFT.pdf, id=850, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/b_inst_FFT.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/b_inst_FFT.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/b_inst_FFT.pdf  used on input line 390.
+Package pdftex.def Info: Imagenes/5_Muestreo/b_inst_FFT.pdf  used on input line 412.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
-<Imagenes/5_Muestreo/b_SH_FFT.pdf, id=765, 922.16518pt x 501.55379pt>
+<Imagenes/5_Muestreo/b_SH_FFT.pdf, id=851, 922.16518pt x 501.55379pt>
 File: Imagenes/5_Muestreo/b_SH_FFT.pdf Graphic file (type pdf)
 <use Imagenes/5_Muestreo/b_SH_FFT.pdf>
-Package pdftex.def Info: Imagenes/5_Muestreo/b_SH_FFT.pdf  used on input line 397.
+Package pdftex.def Info: Imagenes/5_Muestreo/b_SH_FFT.pdf  used on input line 419.
 (pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
-Package pdftex.def Info: Imagenes/logo.png  used on input line 404.
+Package pdftex.def Info: Imagenes/logo.png  used on input line 427.
 (pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
-[17 <./Imagenes/5_Muestreo/a_cuadrada_nat.pdf> <./Imagenes/5_Muestreo/a_cuadrada_inst.pdf> <./Imagenes/5_Muestreo/b_nat_temp.pdf> <./Imagenes/5_Muestreo/b_inst_temp.pdf> <./Imagenes/5_Muestreo/b_SH_temp.pdf>]
-Underfull \vbox (badness 5288) has occurred while \output is active []
-
+[18 <./Imagenes/5_Muestreo/a_cuadrada_nat.pdf> <./Imagenes/5_Muestreo/a_cuadrada_inst.pdf> <./Imagenes/5_Muestreo/b_nat_temp.pdf> <./Imagenes/5_Muestreo/b_inst_temp.pdf> <./Imagenes/5_Muestreo/b_SH_temp.pdf>]
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
-Package pdftex.def Info: Imagenes/logo.png  used on input line 425.
+Package pdftex.def Info: Imagenes/logo.png  used on input line 449.
 (pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
- [18 <./Imagenes/5_Muestreo/b_nat_FFT.pdf> <./Imagenes/5_Muestreo/b_inst_FFT.pdf> <./Imagenes/5_Muestreo/b_SH_FFT.pdf>]
+ [19 <./Imagenes/5_Muestreo/b_nat_FFT.pdf> <./Imagenes/5_Muestreo/b_inst_FFT.pdf> <./Imagenes/5_Muestreo/b_SH_FFT.pdf>]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
-(Font)              using `T1/cmr/m/scsl' instead on input line 443.
+(Font)              using `T1/cmr/m/scsl' instead on input line 465.
 
 )
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
 Package pdftex.def Info: Imagenes/logo.png  used on input line 133.
 (pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
- [19] (Secciones/6_Remuestreo.tex
+ [20] (Secciones/6_Remuestreo.tex
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 1.
 
-)
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/scsl' instead on input line 10.
+
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 19.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+[21]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/scsl' instead on input line 20.
+
+<Imagenes/6_Mustreo_inst/espectro_original.pdf, id=1130, 462.52798pt x 346.89601pt>
+File: Imagenes/6_Mustreo_inst/espectro_original.pdf Graphic file (type pdf)
+<use Imagenes/6_Mustreo_inst/espectro_original.pdf>
+Package pdftex.def Info: Imagenes/6_Mustreo_inst/espectro_original.pdf  used on input line 54.
+(pdftex.def)             Requested size: 234.6307pt x 175.97243pt.
+<Imagenes/6_Mustreo_inst/espectro_pam.pdf, id=1131, 462.52798pt x 346.89601pt>
+File: Imagenes/6_Mustreo_inst/espectro_pam.pdf Graphic file (type pdf)
+<use Imagenes/6_Mustreo_inst/espectro_pam.pdf>
+Package pdftex.def Info: Imagenes/6_Mustreo_inst/espectro_pam.pdf  used on input line 64.
+(pdftex.def)             Requested size: 234.6307pt x 175.97243pt.
+<Imagenes/6_Mustreo_inst/espectro_filtrado.pdf, id=1132, 462.52798pt x 346.89601pt>
+File: Imagenes/6_Mustreo_inst/espectro_filtrado.pdf Graphic file (type pdf)
+<use Imagenes/6_Mustreo_inst/espectro_filtrado.pdf>
+Package pdftex.def Info: Imagenes/6_Mustreo_inst/espectro_filtrado.pdf  used on input line 71.
+(pdftex.def)             Requested size: 234.6307pt x 175.97243pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 79.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+ [22]
+<Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_NO_FR.pdf, id=1139, 922.16518pt x 501.55379pt>
+File: Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_NO_FR.pdf Graphic file (type pdf)
+<use Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_NO_FR.pdf>
+Package pdftex.def Info: Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_NO_FR.pdf  used on input line 86.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+<Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_FR.pdf, id=1140, 922.16518pt x 501.55379pt>
+File: Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_FR.pdf Graphic file (type pdf)
+<use Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_FR.pdf>
+Package pdftex.def Info: Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_FR.pdf  used on input line 92.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+<Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_FR.pdf, id=1141, 922.16518pt x 501.55379pt>
+File: Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_FR.pdf Graphic file (type pdf)
+<use Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_FR.pdf>
+Package pdftex.def Info: Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_FR.pdf  used on input line 104.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+<Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_NO_FR.pdf, id=1142, 922.16518pt x 501.55379pt>
+File: Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_NO_FR.pdf Graphic file (type pdf)
+<use Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_NO_FR.pdf>
+Package pdftex.def Info: Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_NO_FR.pdf  used on input line 110.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 115.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+ [23 <./Imagenes/6_Mustreo_inst/espectro_original.pdf> <./Imagenes/6_Mustreo_inst/espectro_pam.pdf> <./Imagenes/6_Mustreo_inst/espectro_filtrado.pdf> <./Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_NO_FR.pdf> <./Imagenes/6_Mustreo_inst/FFFT_88_2_fs_9_2_fin_FR.pdf>])
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
 Package pdftex.def Info: Imagenes/logo.png  used on input line 135.
 (pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
- [20] (Secciones/7_Sub_nyquist.tex
+ [24 <./Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_FR.pdf> <./Imagenes/6_Mustreo_inst/FFFT_44_1_fs_9_2_fin_NO_FR.pdf>] (Secciones/7_Sub_nyquist.tex
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 1.
 
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/scsl' instead on input line 10.
+
+<Imagenes/7_Sub_nyq/esquema_inicial.pdf, id=1392, 511.9125pt x 170.88844pt>
+File: Imagenes/7_Sub_nyq/esquema_inicial.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/esquema_inicial.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/esquema_inicial.pdf  used on input line 17.
+(pdftex.def)             Requested size: 488.81833pt x 163.18011pt.
+<Imagenes/7_Sub_nyq/cond_nyq.pdf, id=1393, 511.9125pt x 170.88844pt>
+File: Imagenes/7_Sub_nyq/cond_nyq.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/cond_nyq.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/cond_nyq.pdf  used on input line 27.
+(pdftex.def)             Requested size: 488.81833pt x 163.18011pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 31.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+ [25 <./Imagenes/7_Sub_nyq/esquema_inicial.pdf>]
+<Imagenes/7_Sub_nyq/m_2.pdf, id=1427, 511.9125pt x 170.88844pt>
+File: Imagenes/7_Sub_nyq/m_2.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/m_2.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/m_2.pdf  used on input line 37.
+(pdftex.def)             Requested size: 488.81833pt x 163.18011pt.
+
+Underfull \vbox (badness 7291) has occurred while \output is active []
+
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 56.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+ [26 <./Imagenes/7_Sub_nyq/cond_nyq.pdf> <./Imagenes/7_Sub_nyq/m_2.pdf>]
+<Imagenes/7_Sub_nyq/limites.pdf, id=1496, 511.9125pt x 170.88844pt>
+File: Imagenes/7_Sub_nyq/limites.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/limites.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/limites.pdf  used on input line 74.
+(pdftex.def)             Requested size: 488.81833pt x 163.18011pt.
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 85.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+ [27 <./Imagenes/7_Sub_nyq/limites.pdf>]
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/scsl' instead on input line 86.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/scsl' instead on input line 104.
+
+<Imagenes/7_Sub_nyq/nat_fs_28k_D_25.pdf, id=1571, 922.16518pt x 501.55379pt>
+File: Imagenes/7_Sub_nyq/nat_fs_28k_D_25.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/nat_fs_28k_D_25.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/nat_fs_28k_D_25.pdf  used on input line 110.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+<Imagenes/7_Sub_nyq/SH_fs_28k_D_5.pdf, id=1572, 922.16518pt x 501.55379pt>
+File: Imagenes/7_Sub_nyq/SH_fs_28k_D_5.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/SH_fs_28k_D_5.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/SH_fs_28k_D_5.pdf  used on input line 116.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+<Imagenes/7_Sub_nyq/nat_fs_50k_D_25.pdf, id=1573, 922.16518pt x 501.55379pt>
+File: Imagenes/7_Sub_nyq/nat_fs_50k_D_25.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/nat_fs_50k_D_25.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/nat_fs_50k_D_25.pdf  used on input line 128.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+<Imagenes/7_Sub_nyq/SH_fs_50k_D_5.pdf, id=1574, 922.16518pt x 501.55379pt>
+File: Imagenes/7_Sub_nyq/SH_fs_50k_D_5.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/SH_fs_50k_D_5.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/SH_fs_50k_D_5.pdf  used on input line 134.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+
+LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
+(Font)              using `T1/cmr/m/scsl' instead on input line 143.
+
+
+Underfull \vbox (badness 1173) has occurred while \output is active []
+
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 145.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+ [28 <./Imagenes/7_Sub_nyq/nat_fs_28k_D_25.pdf> <./Imagenes/7_Sub_nyq/SH_fs_28k_D_5.pdf> <./Imagenes/7_Sub_nyq/nat_fs_50k_D_25.pdf> <./Imagenes/7_Sub_nyq/SH_fs_50k_D_5.pdf>]
+<Imagenes/7_Sub_nyq/nat_fs_28k_D_50.pdf, id=1713, 922.16518pt x 501.55379pt>
+File: Imagenes/7_Sub_nyq/nat_fs_28k_D_50.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/nat_fs_28k_D_50.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/nat_fs_28k_D_50.pdf  used on input line 172.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
+<Imagenes/7_Sub_nyq/SH_fs_50k_D_50.pdf, id=1714, 922.16518pt x 501.55379pt>
+File: Imagenes/7_Sub_nyq/SH_fs_50k_D_50.pdf Graphic file (type pdf)
+<use Imagenes/7_Sub_nyq/SH_fs_50k_D_50.pdf>
+Package pdftex.def Info: Imagenes/7_Sub_nyq/SH_fs_50k_D_50.pdf  used on input line 178.
+(pdftex.def)             Requested size: 234.6307pt x 127.60753pt.
 )
+File: Imagenes/logo.png Graphic file (type png)
+<use Imagenes/logo.png>
+Package pdftex.def Info: Imagenes/logo.png  used on input line 137.
+(pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
+ [29 <./Imagenes/7_Sub_nyq/nat_fs_28k_D_50.pdf> <./Imagenes/7_Sub_nyq/SH_fs_50k_D_50.pdf>]
 File: Imagenes/logo.png Graphic file (type png)
 <use Imagenes/logo.png>
 Package pdftex.def Info: Imagenes/logo.png  used on input line 147.
 (pdftex.def)             Requested size: 46.98853pt x 23.0721pt.
- [21]
+ [30]
 
 LaTeX Font Warning: Font shape `T1/cmr/m/scit' undefined
 (Font)              using `T1/cmr/m/scsl' instead on input line 149.
@@ -1613,7 +1791,7 @@ LaTeX Info: Redefining \. on input line 151.
 LaTeX Info: Redefining \% on input line 151.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 151.
-[22
+[31
 
 ] (main.aux
 LaTeX Info: Redefining \sptext on input line 14.
@@ -1629,23 +1807,23 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B1E0C2AE227356D56943A70832B9027C;2608.
+(rerunfilecheck)             Checksum: 2A0E2DDDB75F540161BA8463E06C6157;3882.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 66748 strings out of 467871
- 1626455 string characters out of 5418376
- 2894968 words of memory out of 5000000
- 94688 multiletter control sequences out of 15000+600000
- 654433 words of font info for 103 fonts, out of 8000000 for 9000
+ 66945 strings out of 467871
+ 1634140 string characters out of 5418376
+ 2896811 words of memory out of 5000000
+ 94851 multiletter control sequences out of 15000+600000
+ 655807 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,16n,132p,914b,1939s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0800.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsc1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsc1095.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2488.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (22 pages, 1359284 bytes).
+ 114i,16n,132p,1081b,1939s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0800.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsc1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsc1095.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc2488.pk> <C:\Users\herra\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1440.pk><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/herra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (31 pages, 1798930 bytes).
 PDF statistics:
- 1671 PDF objects out of 1728 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2459 PDF objects out of 2487 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 440 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,11 +8,18 @@
 \contentsline {subsection}{\numberline {5.1}Introducción teórica}{9}{subsection.5.1}%
 \contentsline {subsubsection}{\numberline {5.1.1}Muestreo instantáneo}{10}{subsubsection.5.1.1}%
 \contentsline {subsubsection}{\numberline {5.1.2}Muestreo natural}{11}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Filtros}{12}{subsubsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.2}Marco experimental}{13}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Salida proporcional}{13}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Senoidal con $f_s = f_{in} < f_p$}{17}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}Variación de frecuencia de señal cuadrada}{19}{subsubsection.5.2.3}%
-\contentsline {section}{\numberline {6}Muestreo Instantáneo}{20}{section.6}%
-\contentsline {section}{\numberline {7}Muestreo sub-Nyquist}{21}{section.7}%
-\contentsline {section}{Referencias}{22}{section.7}%
+\contentsline {subsubsection}{\numberline {5.1.3}Muestreo con S\&H}{12}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Filtros}{12}{subsubsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.2}Marco experimental}{14}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Salida proporcional}{14}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Senoidal con $f_s = f_{in} < f_p$}{18}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Variación de frecuencia de señal cuadrada}{20}{subsubsection.5.2.3}%
+\contentsline {section}{\numberline {6}Muestreo Instantáneo}{21}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Condiciones de muestreo}{21}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Expectativa teórica}{22}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Muestreo sub-Nyquist}{25}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Introducción teórica}{25}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Intervalos}{28}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Verificación empírica}{28}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Comportamiento en de la configuración de muestreo}{29}{subsection.7.4}%
+\contentsline {section}{Referencias}{31}{figure.caption.29}%

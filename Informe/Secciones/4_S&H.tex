@@ -72,34 +72,52 @@ Para garantizar un rendimiento óptimo en el esquema implementado, se analizaron
 
 Para determinar la configuración más conveniente, se debe optimizar el sistema basándose en las restricciones de carga y descarga parásita.
 
-\textbf{1. Elección del Capacitor Óptimo ($C_h$):}
+\begin{enumerate}
+	\item \textbf{Elección del Capacitor Óptimo ($C_h$):}
+	
+	El factor que más degrada el rango dinámico de forma instantánea es el \textit{hold step} provocado por la inyección de carga ($Q_{inj}$) de la llave analógica interna del LF398. Típicamente, este valor ronda los 10~pC a 20~pC.
+	
+	Para que este error consuma, como máximo, la mitad de nuestro presupuesto de 1~LSB (es decir, 10~mV) y deje margen para otros ruidos, calculamos el valor ideal:
+	\begin{equation}
+		C_{h(ideal)} \ge \frac{Q_{inj}}{10\text{ mV}} \approx \frac{20\text{ pC}}{10\text{ mV}} = 2\text{ nF}
+	\end{equation}
+	
+	Eligiendo un valor comercial estándar, se propone como óptimo $C_h = 2,2\text{ nF}$ (con dieléctrico de polipropileno o teflón para evitar absorción dieléctrica).
+	
+	\begin{itemize}
+		\item \textbf{Verificación de inyección:} $\Delta V_{step} = \frac{20\text{ pC}}{2,2\text{ nF}} \approx 9,09\text{ mV} < 19,53\text{ mV}$.
+		\item \textbf{Verificación de droop rate:} Asumiendo una fuga típica de 100~pA, la caída en un período completo de 100~$\mu$s será de apenas 4,5~$\mu$V, siendo un error totalmente despreciable frente al LSB.
+	\end{itemize}
+	\newpage
+	\item \textbf{Determinación de los Tiempos de Sample y Hold más convenientes:}
+	
+	Con una frecuencia de muestreo $f_s = 10\text{ kHz}$, el período es $T_s = 100\ \mu\text{s}$. El tiempo de \textit{sample} debe garantizar la carga plena de nuestro capacitor de 2,2~nF a través de la resistencia interna de la llave ($R_{ON} \approx 300\ \Omega$).
+	
+	Para justificar el requerimiento temporal, se debe asegurar que el error de carga transitoria del capacitor no supere el umbral del bit menos significativo (LSB). Considerando la resolución de 8 bits analizada en la Ecuación (9), la porción no cargada de la respuesta exponencial debe ser estrictamente menor a la resolución del sistema ($1/2^8$):
+	\begin{equation}
+		e^{-t/\tau} \le \frac{1}{256}
+	\end{equation}
+	
+	Aplicando logaritmo natural para despejar la relación temporal necesaria:
+	\begin{equation}
+		\frac{t}{\tau} \ge \ln(256) \approx 5,545
+	\end{equation}
+	
+	Por lo tanto, se necesitan al menos 5,5 constantes de tiempo ($\tau = R_{ON} \cdot C_h$) para alcanzar la precisión de 8 bits:
+	\begin{equation}
+		t_{sample(min)} = 5,5 \cdot (300\ \Omega \cdot 2,2\text{ nF}) \approx 3,63\ \mu\text{s}
+	\end{equation}
+	
+	Para garantizar el asentamiento total y establecer un ciclo de trabajo (Duty Cycle) que sea sencillo de configurar en el oscilador propuesto en el circuito, lo óptimo es utilizar un ciclo de trabajo bajo:
+	
+	\begin{itemize}
+		\item \textbf{Tiempo de Sample ($t_{sample}$):} $10\ \mu\text{s}$ (10\% del DC). Ofrece un margen de seguridad de casi $15\tau$, garantizando un error dinámico nulo al muestrear.
+		\item \textbf{Tiempo de Hold ($t_{hold}$):} $90\ \mu\text{s}$ (90\% del DC).
+	\end{itemize}
+\end{enumerate}
 
-El factor que más degrada el rango dinámico de forma instantánea es el \textit{hold step} provocado por la inyección de carga ($Q_{inj}$) de la llave analógica interna del LF398. Típicamente, este valor ronda los $10\text{ pC}$ a $20\text{ pC}$. 
-
-Para que este error consuma, como máximo, la mitad de nuestro presupuesto de 1 LSB (es decir, $\approx 10\text{ mV}$) y deje margen para otros ruidos, calculamos el valor ideal:
-
-$$ C_{h(ideal)} \ge \frac{Q_{inj}}{10\text{ mV}} \approx \frac{20\text{ pC}}{10\text{ mV}} = 2\text{ nF} $$
-
-Eligiendo un valor comercial estándar, se propone como óptimo \textbf{$C_h = 2.2\text{ nF}$} (con dieléctrico de polipropileno o teflón para evitar absorción dieléctrica). 
-\begin{itemize}
-	\item \textit{Verificación de inyección:} $\Delta V_{step} = \frac{20\text{ pC}}{2.2\text{ nF}} \approx 9.09\text{ mV} < 19.53\text{ mV}$.
-	\item \textit{Verificación de droop rate:} Asumiendo una fuga típica de $100\text{ pA}$, la caída en un período completo de $100\text{ }\mu\text{s}$ será de apenas $4.5\text{ }\mu\text{V}$, siendo un error totalmente despreciable frente al LSB.
-\end{itemize}
+\textbf{Conclusión sobre las limitaciones del rango dinámico:} Esta configuración elegida maximiza el tiempo de \textit{hold} ($90\ \mu\text{s}$), brindando al ADC la mayor ventana de tiempo posible para digitalizar la muestra estable sin que el droop o la inyección de carga superen el umbral límite del LSB (19,53~mV).
 \newpage
-\textbf{2. Determinación de los Tiempos de \textit{Sample} y \textit{Hold} más convenientes:}
-
-Con una frecuencia de muestreo $f_s = 10\text{ kHz}$, el período es $T_s = 100\text{ }\mu\text{s}$. El tiempo de \textit{sample} debe garantizar la carga plena de nuestro capacitor de $2.2\text{ nF}$ a través de la resistencia interna de la llave ($R_{ON} \approx 300\text{ }\Omega$). Para alcanzar precisión de 8 bits, se necesitan al menos $5.5$ constantes de tiempo ($\tau = R_{ON} \cdot C_h$):
-$$ t_{sample(min)} = 5.5 \cdot (300\text{ }\Omega \cdot 2.2\text{ nF}) \approx 3.63\text{ }\mu\text{s} $$
-
-Para garantizar el asentamiento total y establecer un ciclo de trabajo (\textit{Duty Cycle}) que sea sencillo de configurar en el oscilador propuesto en el circuito, lo óptimo es utilizar un \textbf{ciclo de trabajo bajo}:
-
-\begin{itemize}
-	\item \textbf{Tiempo de \textit{Sample} ($t_{sample}$): $10\text{ }\mu\text{s}$} ($10\%$ del DC). Ofrece un margen de seguridad de casi $15\tau$, garantizando un error dinámico nulo al muestrear.
-	\item \textbf{Tiempo de \textit{Hold} ($t_{hold}$): $90\text{ }\mu\text{s}$} ($90\%$ del DC). 
-\end{itemize}
-
-\textbf{Conclusión sobre las limitaciones del rango dinámico:} 
-Esta configuración elegida maximiza el tiempo de \textit{hold} ($90\text{ }\mu\text{s}$), brindando al ADC la mayor ventana de tiempo posible para digitalizar la muestra estable sin que el \textit{droop} o la inyección de carga superen el umbral límite del LSB ($19.53\text{ mV}$).
 \subsection{Corrección de Offset (DC) y Compensación del Hold Step (AC Zeroing)}
 
 Para mitigar las no idealidades intrínsecas del circuito integrado LF398 y garantizar que el error de muestreo se mantenga por debajo de la cota impuesta por el LSB ($19.53\text{ mV}$), es imperativo implementar redes de compensación externas tanto para el régimen estático (DC) como dinámico (AC). A continuación, se justifica la topología adoptada:

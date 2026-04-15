@@ -68,6 +68,60 @@ De este modo es posible calcular el tiempo en el que se produce este flanco, con
 \Longrightarrow \: & t_- = -(1.95\mu s + k \cdot 20\mu s) \cdot ln\left(1 - \frac{10V}{15V}\right)
 \end{align*}
 
-\noindent de este modo  $ 2,14\mu s< t_- <26,376\mu s$
+\noindent De este modo obteniendo que \textbf{$ 2,14\mu s< t_- <26,376\mu s$}
+
+\subsubsection{Flanco Ascendente}
+De manera análoga, se debe analizar la respuesta del sistema durante el flanco ascendente, es decir, cuando la salida del comparador transiciona a $V_{out} = 10V$. En este escenario, el capacitor $C_1$ se carga partiendo desde una condición inicial de $-5V$ hasta alcanzar el umbral positivo de $+5V$. 
+
+Durante esta etapa, la corriente circula desde la salida del comparador hacia el capacitor, polarizando en directa al diodo $D_1$. Asumiendo una caída de tensión típica en el diodo $V_d \approx 0.7V$, la tensión equivalente que "ve" la red de carga es $V_{eq} = 10V - 0.7V = 9.3V$. Además, el diodo en directa cortocircuita en la práctica a la resistencia $R_4$, modificando la constante de tiempo de carga:
+
+\begin{equation}
+	\tau_{asc} = (R_5 + k \cdot P_1) \cdot C_1 = (1k\Omega + k \cdot 20k\Omega) \cdot 1nF = 1\mu s + k \cdot 20\mu s
+\end{equation}
+
+Planteando la ecuación de carga del capacitor y despejando el tiempo $t_+$ necesario para alcanzar los $5V$:
+\begin{equation}
+	5V = 9.3V + (-5V - 9.3V)e^{-t_+/\tau_{asc}} \implies e^{t_+/\tau_{asc}} = \frac{14.3}{4.3} \approx 3.325
+\end{equation}
+\begin{equation}
+	t_+ = \tau_{asc} \cdot \ln(3.325) \approx (1\mu s + k \cdot 20\mu s) \cdot 1.201
+\end{equation}
+Por lo tanto, el tiempo del flanco ascendente varía en el rango: $1.20\mu s \le t_+ \le 25.22\mu s$.
+
+\subsection{Rangos de Frecuencia}
+El período total de la señal triangular generada en el nodo $V_r$ es la suma de los tiempos de carga y descarga ($T = t_+ + t_-$). Modificando el potenciómetro $P_1$ (es decir, variando $k \in [0, 1]$), obtenemos los valores extremos del oscilador:
+
+\begin{itemize}
+	\item \textbf{Frecuencia Máxima ($k=0$):} \\
+	$T_{min} = 1.20\mu s + 2.14\mu s = 3.34\mu s \implies \mathbf{f_{max} = \frac{1}{T_{min}} \approx 299 \text{ kHz}}$
+	\item \textbf{Frecuencia Mínima ($k=1$):} \\
+	$T_{max} = 25.22\mu s + 24.11\mu s = 49.33\mu s \implies \mathbf{f_{min} = \frac{1}{T_{max}} \approx 20.27 \text{ kHz}}$
+\end{itemize}
+
+\subsection{Límites del Ciclo de Trabajo (Duty Cycle)}
+Las señales cuadradas de control se generan comparando la onda triangular $V_r$ (que oscila entre $-5V$ y $+5V$) contra un nivel de tensión continua ($V_{th}$) fijado por los potenciómetros $P_2$ y $P_3$.
+
+Para hallar los límites de este umbral, analizamos el divisor resistivo formado por $R_8$ (o $R_{14}$), el potenciómetro de $10k\Omega$ y $R_9$ (o $R_{13}$), alimentado entre $+5V$ y $-5V$. La corriente que atraviesa esta rama es:
+\begin{equation}
+	I = \frac{5V - (-5V)}{1k\Omega + 10k\Omega + 1k\Omega} = \frac{10V}{12k\Omega} \approx 0.833 \text{ mA}
+\end{equation}
+La caída de tensión en las resistencias de los extremos es de $0.833V$. Por ende, la tensión en el cursor del potenciómetro ($V_{th}$) puede ajustarse en el rango de $\mathbf{[-4.16V, +4.16V]}$.
+
+Aproximando los flancos de la onda triangular como lineales para el cálculo del Duty Cycle (DC), la proporción de tiempo que la señal pasa por debajo del umbral establece el ancho de pulso:
+\begin{equation}
+	DC \approx \left( \frac{V_{th} - V_{min}}{V_{max} - V_{min}} \right) \cdot 100\% = \left( \frac{V_{th} + 5V}{10V} \right) \cdot 100\%
+\end{equation}
+Evaluando en los extremos del umbral obtenemos los límites teóricos del ciclo de trabajo:
+\begin{itemize}
+	\item $DC_{min} \approx \left( \frac{-4.16 + 5}{10} \right) \cdot 100\% = \mathbf{8.4\%}$
+	\item $DC_{max} \approx \left( \frac{4.16 + 5}{10} \right) \cdot 100\% = \mathbf{91.6\%}$
+\end{itemize}
+\newpage
+\subsection{Análisis de Fase y Contrafase}
+De acuerdo con las especificaciones técnicas de los integrados, el LF398 (S\&H) toma una muestra de la señal cuando su pin de control está en estado ALTO ($5V$) y retiene el valor (Hold) cuando está en estado BAJO ($0V$). Por su parte, la llave analógica CD4016 cierra el circuito dejando pasar la señal cuando su control es ALTO ($5V$) y lo abre cuando es BAJO ($-5V$).
+
+Para implementar correctamente el sistema de muestreo, la llave analógica debe tomar la muestra \textbf{exclusivamente} durante el período en que la salida del S\&H es estable (es decir, en la fase de Hold). Si la llave se cerrara mientras el S\&H está adquiriendo la señal (fase de Sample), la salida rastrearía los transitorios y la señal en movimiento, arruinando el concepto de "muestreo instantáneo".
+
+Por lo tanto, la llave analógica debe cerrarse (Control AS = ALTO) cuando el S\&H está reteniendo (Control S\&H = BAJO). Esto exige de forma excluyente que ambas señales de control operen en \textbf{contrafase} (lógicamente invertidas).
 
 
